@@ -1,0 +1,32 @@
+:root {
+	--fondoPrimario: #32383f;
+	--fondoSecundario: #1a1e21;
+	--fondoPost: #bfd6d9;
+	--fondoPostHover: #d5e4e6;
+	--itemSelector: lawngreen;
+}
+
+body {
+	/* display: flex; */
+	background: var(--fondoPrimario);
+	flex-direction: column;
+	padding-top: 0rem;
+}
+
+.areatxt {
+	/* height: 22rem; */
+	background-color: #1a1e21;
+	font-style: italic;
+	color: var(--itemSelector);
+}
+.areatxt:disabled {
+	background-color: #1a1e21;
+	font-style: italic;
+	color: var(--itemSelector);
+}
+
+.areatxt:focus {
+	background-color: #1a1e21;
+	font-style: italic;
+	color: var(--itemSelector);
+}
